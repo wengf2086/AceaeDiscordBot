@@ -1,0 +1,2 @@
+# AceaeDiscordBot
+Remake of Aru (?)
