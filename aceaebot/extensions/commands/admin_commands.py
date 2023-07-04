@@ -4,7 +4,7 @@ plugin = lightbulb.Plugin('admin_commands')
 def load(bot):
     bot.add_plugin(plugin)
 
-@plugin.command() # Registers command
+@plugin.command # Registers command
 @lightbulb.add_cooldown(10.0, 1, lightbulb.UserBucket) # Cooldown. User/Guild Bucket: cooldown applies to user / guild
 @lightbulb.add_checks(lightbulb.owner_only) # Permissions
 @lightbulb.option("text", "The thing to say.") # Options (Arguments)
